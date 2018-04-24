@@ -1,0 +1,26 @@
+<svg width="21" height="21" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(43 -417)">
+<g id="Group 5">
+<g id="Oval 4">
+<use xlink:href="#path0_fill" transform="translate(-43 417)" fill="#B6B9C2"/>
+</g>
+<g id="Group 2">
+<g id="Oval 5">
+<use xlink:href="#path1_fill" transform="translate(-39 426)" fill="#FFFFFF"/>
+</g>
+<g id="Oval 5">
+<use xlink:href="#path1_fill" transform="translate(-34 426)" fill="#FFFFFF"/>
+</g>
+<g id="Oval 5">
+<use xlink:href="#path1_fill" transform="translate(-29 426)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10.5 21C 16.299 21 21 16.299 21 10.5C 21 4.70101 16.299 0 10.5 0C 4.70101 0 0 4.70101 0 10.5C 0 16.299 4.70101 21 10.5 21Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 1.5 3C 2.32843 3 3 2.32843 3 1.5C 3 0.671573 2.32843 0 1.5 0C 0.671573 0 0 0.671573 0 1.5C 0 2.32843 0.671573 3 1.5 3Z"/>
+</defs>
+</svg>

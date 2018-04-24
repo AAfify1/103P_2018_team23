@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-row align-items-center justify-content-center class="message">
+    <ion-row align-items-center justify-content-center>
+      <button *ngIf="!recording" class="record" (click)="recordMessage()"></button>
+      <ion-row *ngIf="recording" align-items-center justify-content-center>
+        <button class="send" (click)="finaliseMessage()">Send</button>
+        <button class="discard" (click)="discardMessage()">Discard</button>
+      </ion-row>
+
+      <!-- change this boi to 'Recording Message' when tapped -->
+      <p *ngIf="!recording; else recording_message" ion-text class="aux">Tap to record a new message</p>
+      <ng-template #recording_message><p ion-text class="aux">Recording Message</p></ng-template>
+    </ion-row>
+  </ion-row>
+  <ion-grid style="padding: 0px !important;">
+    <ion-row nowrap class="horizontal">
+      <ion-col *ngFor="let message of history" class="history-message">
+        <ion-row class="history-button" align-items-center justify-content-center>
+          <button (click)="playAudio(message[2])"></button>
+        </ion-row>
+        <h1>{{message[0]}}</h1>
+        <h2>{{message[1]}}</h2>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

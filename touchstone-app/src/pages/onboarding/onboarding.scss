@@ -1,0 +1,53 @@
+page-onboarding {
+  $primary: #009FFF;
+  $font-family-base: "Calibre", sans-serif !default;
+  body{
+    font-family: "Calibre" !important;
+    font-weight: 400 !important;
+  }
+
+  .hero {
+    height: 65vh;
+    background-image: url(../assets/imgs/onboarding.png);
+    background-color: transparent;
+    background-repeat: none;
+    background-size: auto 100%;
+    background-position: top center;
+    padding: 0px !important;
+  }
+
+  .action {
+    height: 34vh;
+  }
+
+  .continue {
+    width: 85%;
+    background-color: $primary;
+    height: 54px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    border-radius: 6px;
+    font-family: "Calibre";
+    padding-top: 8px;
+  }
+
+  .input-holder {
+    width: 85%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #B1B9C4;
+  }
+
+  .name {
+    font-family: "Calibre" !important;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  ::placeholder {
+    color: #B1B9C4;
+  }
+}

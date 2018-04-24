@@ -1,0 +1,14 @@
+<ion-content>
+  <ion-row align-items-center justify-content-center class="hero">
+  </ion-row>
+  <ion-row align-items-center justify-content-center class="action">
+    <div class="input-holder">
+      <ion-item no-lines style="padding: 0px !important;">
+        <ion-input class="name" placeholder="Your name" #name></ion-input>
+      </ion-item>
+    </div>
+    <button class="continue" (click)="startOnboardingScanner(name.value)" [disabled]="!platformEnabled">
+      Continue
+    </button>
+  </ion-row>
+</ion-content>

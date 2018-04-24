@@ -1,0 +1,18 @@
+<svg width="90" height="90" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-470 25)">
+<g id="Group 3">
+<g id="Oval">
+<use xlink:href="#path0_fill" transform="translate(470 -25)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="matrix(0.898794 -0.438371 0.438371 0.898794 502.46 3.66556)" fill="#009FFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 45 90C 69.8528 90 90 69.8528 90 45C 90 20.1472 69.8528 0 45 0C 20.1472 0 0 20.1472 0 45C 0 69.8528 20.1472 90 45 90Z"/>
+<path id="path1_fill" d="M 0.0240626 20.0257L 1.79783 12.3444C 1.86784 12.0176 2.14791 11.7608 2.498 11.7141L 12.4171 10.6868C 12.6971 10.6634 12.6971 10.2432 12.4171 10.1965L 2.498 9.23924C 2.14791 9.21589 1.86784 8.95907 1.79783 8.63221L 0.0240626 0.974256C -0.139311 0.320528 0.56086 -0.216462 1.16767 0.0870542L 20.5624 9.79958C 21.1459 10.1031 21.1459 10.9436 20.5624 11.2471L 1.16767 20.9129C 0.56086 21.2165 -0.139311 20.6795 0.0240626 20.0257Z"/>
+</defs>
+</svg>

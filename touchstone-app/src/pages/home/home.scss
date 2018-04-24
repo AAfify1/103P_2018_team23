@@ -1,0 +1,112 @@
+page-home {
+  $primary: #009FFF;
+  $font-family-base: "Calibre", sans-serif !default;
+  body{
+    font-family: "Calibre" !important;
+    font-weight: 400 !important;
+  }
+
+  .message {
+    height: 60vh;
+    background-color: $primary;
+    padding: 0px !important;
+  }
+
+  .record {
+    align-self: center;
+    height: 140px;
+    width: 140px;
+    background-image: url(../assets/imgs/record-button.svg);
+    background-color: transparent;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 70px;
+  }
+
+  .send {
+    align-self: center;
+    height: 120px;
+    width: 120px;
+    background-image: url(../assets/imgs/send-button.svg);
+    background-color: white;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 60px;
+    margin-right: 10px;
+    padding-top: 50px;
+    font-family: "Calibre";
+    font-size: 1.2em;
+    color: $primary;
+    font-weight: 500;
+  }
+
+  .discard {
+    align-self: center;
+    height: 120px;
+    width: 120px;
+    background-image: url(../assets/imgs/discard-button.svg);
+    background-color: transparent;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 60px;
+    margin-left: 10px;
+    padding-top: 50px;
+    font-family: "Calibre";
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+  }
+
+  .aux {
+    font-family: "Calibre";
+    font-weight: 400;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 40px;
+  }
+
+  .history {
+    height: 40vh;
+  }
+
+  .horizontal {
+    overflow-x: scroll!important;
+    overflow-y: hidden;
+    height: 40vh;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .history-message {
+    margin-left: 15px;
+  }
+
+  .history-message h1 {
+    font-size:1.2em;
+    font-weight: 500;
+  }
+
+  .history-message h2 {
+    font-size:1.0em;
+    font-weight: 400;
+  }
+
+  .history-button {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background-color: $primary;
+  }
+
+  .history-button button {
+    width: 50%;
+    height: 50%;
+    background-image: url(../assets/imgs/play-button.svg);
+    background-color: transparent;
+    background-repeat: none;
+    background-size: cover;
+  }
+}

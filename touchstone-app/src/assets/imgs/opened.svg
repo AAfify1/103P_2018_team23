@@ -1,0 +1,18 @@
+<svg width="21" height="21" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 6</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-107 -418)">
+<g id="Group 6">
+<g id="Oval 4">
+<use xlink:href="#path0_fill" transform="translate(107 418)" fill="#009FFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path1_stroke" transform="translate(114 427)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10.5 21C 16.299 21 21 16.299 21 10.5C 21 4.70101 16.299 0 10.5 0C 4.70101 0 0 4.70101 0 10.5C 0 16.299 4.70101 21 10.5 21Z"/>
+<path id="path1_stroke" d="M 0.648181 1.85513L -6.39907e-08 1.20694L -1.29636 2.50331L -0.648181 3.15149L 0.648181 1.85513ZM 2.41501 4.91832L 1.76683 5.5665L 2.41501 6.21468L 3.06319 5.5665L 2.41501 4.91832ZM 7.98151 0.648181L 8.6297 3.1421e-08L 7.33333 -1.29636L 6.68515 -0.648181L 7.98151 0.648181ZM -0.648181 3.15149L 1.76683 5.5665L 3.06319 4.27014L 0.648181 1.85513L -0.648181 3.15149ZM 3.06319 5.5665L 7.98151 0.648181L 6.68515 -0.648181L 1.76683 4.27014L 3.06319 5.5665Z"/>
+</defs>
+</svg>

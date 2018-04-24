@@ -1,0 +1,8 @@
+{
+  "name": "touchstone",
+  "app_id": "af9447a9",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
