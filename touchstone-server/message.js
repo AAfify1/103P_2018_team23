@@ -6,6 +6,8 @@ var fs = require("./fs");
 
 var parser = bodyParser.raw({type: "audio/wav", limit: "100mb"});
 
+fs.init();
+
 router.get(
 	"/query/:senderId",
 	(req, res) => {
